@@ -8,11 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
-    <PackageReference Include="Microsoft.DocAsCode.Dfm" Version="2.35.4" />
-    <PackageReference Include="Microsoft.DocAsCode.MarkdownLite" Version="2.35.4" />
-    <PackageReference Include="Microsoft.DocAsCode.Plugins" Version="2.35.4" />
-    <PackageReference Include="PlantUml.Net" Version="1.0.13" />
+    <ProjectReference Include="..\..\..\..\src\Microsoft.DocAsCode.Dfm\Microsoft.DocAsCode.Dfm.csproj" />
+    <ProjectReference Include="..\..\PlantUml.Net\src\PlantUml.Net.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Composition.AttributedModel">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.composition.attributedmodel\1.0.31\lib\portable-net45+win8+wp8+wpa81\System.Composition.AttributedModel.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

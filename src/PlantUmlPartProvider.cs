@@ -1,8 +1,6 @@
 ﻿using Microsoft.DocAsCode.Dfm;
-using PlantUml.Net;
 using System.Collections.Generic;
 using System.Composition;
-using System.Diagnostics;
 
 namespace DocFx.Plugins.PlantUml
 {
